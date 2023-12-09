@@ -7,13 +7,22 @@ from django.db import models
 
 
 designations_opt = (
-    ('Team Leader','Team Leader'),
-    ('Project Manager','Project Manager'),
-    ('Senior Developer','Senior Developer'),
-    ('Junior Developer','Junior Developer'),
+    ('HR Department','HR Department'),
+    ('Procurements Department','Procurements Department'),
+    ('Execution Department','Execution Department'),
+    ('IT Department','IT Department'),
     ('Intern','Intern'),
-    ('QA Tester','QA Tester')
+    ('Sales Department','Sales Department'),
+    ('Co-Founder','Co-Founder'),
+    ('PC Team','PC Team'),
 )
+
+
+
+
+
+
+
 
 months = (
     ('January','January'),
